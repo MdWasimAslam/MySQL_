@@ -47,3 +47,12 @@ VALUES
 -- Rename column name inside a table
 ALTER TABLE users
  RENAME COLUMN contact to phone; 
+
+
+ -- ADD NEW COLUMN IN THE TABLE 
+ ALTER TABLE users
+ADD age INT;
+
+
+-- DELETE A COLUMN FROM TABLE
+ALTER TABLE users DROP COLUMN age;

@@ -14,8 +14,10 @@ select name,email,phone from users;
 select name,email,phone as "Phone No" from users;
 
 
---- FETCH DATA WITH simple FILTER
+--- FETCH selected datas for all females
 select name,email,phone from users WHERE gender="F";
+
+
 
 
 
