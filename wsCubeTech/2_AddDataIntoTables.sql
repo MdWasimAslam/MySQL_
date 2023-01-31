@@ -2,7 +2,16 @@
 -- Select Db which contains that table
 
 
---- INSERT SINGLE DATA INTO TABLE
+
+-- INSERT SINGLE DATA (NOT RECOMENDED) 
+INSERT into users 
+VALUES 
+(6,"Orion Jack","orion@email.com","pwd123","+919544755","24,King St","1969-01-10","F",1)
+
+
+
+
+--- INSERT SINGLE DATA INTO TABLE (RECOMENDED)
 
 INSERT into users 
 (id,name,email,password,contact,address,dob,gender,status)
