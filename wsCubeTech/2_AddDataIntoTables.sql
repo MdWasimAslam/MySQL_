@@ -41,3 +41,9 @@ INSERT into users
 (id,name,email,password,contact,address,dob,gender)
 VALUES 
 (7,"Yokomi Sama","yokomi@email.com","pwd123","+9198123755","32,Union St","1997-01-04","M")
+
+
+
+-- Rename column name inside a table
+ALTER TABLE users
+ RENAME COLUMN contact to phone; 
