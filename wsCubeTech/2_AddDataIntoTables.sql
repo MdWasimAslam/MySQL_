@@ -25,7 +25,19 @@ VALUES
 
 
 
+
 -- INSERT SINGLE DATA ( use only when you are filling the complete columns of the table) 
 INSERT into users 
 VALUES 
 (6,"Orion Jack","orion@email.com","pwd123","+919544755","24,King St","1969-01-10","F",1)
+
+
+
+
+
+--- INSERT DATA BUT NOT ALL COLUMNS  ( same process just not define the column which you do not want to insert)
+-- STATUS COLUMN IS REMOVED SO IT WILL BE NULL VALUE in the tavle
+INSERT into users 
+(id,name,email,password,contact,address,dob,gender)
+VALUES 
+(7,"Yokomi Sama","yokomi@email.com","pwd123","+9198123755","32,Union St","1997-01-04","M")
