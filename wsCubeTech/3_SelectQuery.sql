@@ -18,6 +18,8 @@ select name,email,phone as "Phone No" from users;
 select name,email,phone from users WHERE gender="F";
 
 
+-- FETCH datas from users table who age is more than 18
+select * from users WHERE age>18;
 
 
 
