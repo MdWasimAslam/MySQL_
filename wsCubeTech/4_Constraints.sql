@@ -1,4 +1,4 @@
---
+-- Contraints - used to specify rules for the data in a table
 
 create table students 
 (
