@@ -2,11 +2,11 @@
 SELECT * FROM wscube.students
 where  age =18 and name ="mary"
 
--- Get All students whose age is 18 or 25
+-- Get All students whose age is 18 OR 25
 SELECT * FROM wscube.students
 where  age =18 or age =25
 
 
--- Getting multiple data using in operator . It is shorthand for multiple or  operators
+-- Getting multiple data using in operator . It is shorthand for multiple OR  operators
 SELECT * FROM wscube.students
-where  age in(18,25,22) -- this will return all students whose age is 18 25 or 22
+where  age in(18,25,22) -- this will return all students whose age is 18, 25 or 22.
