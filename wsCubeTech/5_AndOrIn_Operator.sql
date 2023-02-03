@@ -1,4 +1,4 @@
--- Get student data whose age is equals to 18 and name equals to mary
+-- Get student data whose age is equals to 18 AND name equals to mary
 SELECT * FROM wscube.students
 where  age =18 and name ="mary"
 
