@@ -4,6 +4,19 @@ create database wscube;
 -- Selecting that database
 use wscube;
 
+
+
+-- SYNTAX for creating simple Database
+-- CREATE TABLE table_name
+-- (
+--   columnName1 datatype,
+--   columnName1 datatype,
+--   columnName1 datatype,
+--   ...
+-- )
+
+
+
 --- CREATING A TABLE for users
 create table users 
 (
