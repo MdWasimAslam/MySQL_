@@ -10,3 +10,15 @@ order by age ASC;
 select * from users
 order by age DESC;
 
+-- -- Get all unique values from column 
+-- example if column gender has 
+-- m
+-- f
+-- f
+-- m
+-- m
+
+--  so distnict will return only m and f as unqiue values
+
+-- Get all unique values in gender column
+select distinct gender from users; 
