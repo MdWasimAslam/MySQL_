@@ -16,7 +16,6 @@ use wscube;
 -- )
 
 
-
 --- CREATING A TABLE for users
 create table users 
 (
