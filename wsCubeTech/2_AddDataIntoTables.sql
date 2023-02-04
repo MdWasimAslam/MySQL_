@@ -56,3 +56,9 @@ ADD age INT;
 
 -- DELETE A COLUMN FROM TABLE
 ALTER TABLE users DROP COLUMN age;
+
+
+-- Update single column from table
+UPDATE users
+SET age=23
+WHERE id=1; 
