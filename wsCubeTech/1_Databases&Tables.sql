@@ -4,7 +4,7 @@ create database wscube;
 -- Selecting that database
 use wscube;
 
---- CREATING A DEMO TABLE for users
+--- CREATING A TABLE for users
 create table users 
 (
  id int unsigned,
