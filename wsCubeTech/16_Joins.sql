@@ -21,3 +21,13 @@ left join cities on students.city_id= cities.cid;
 select * 
 from students 
 right join cities on students.city_id= cities.cid;
+
+
+
+
+-- MULTIPLE JOIN 
+select * from students 
+inner join cities
+on students.city_id= cities.cid
+inner join courses
+on students.city_id=courses.cid;
