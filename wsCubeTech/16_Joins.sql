@@ -3,3 +3,16 @@
 select * 
 from students 
 inner join cities on students.city_id= cities.cid;
+
+-- Left Join 
+-- This will return all data from left table and only matching data from right table
+select * 
+from students 
+left join cities on students.city_id= cities.cid;
+
+
+-- Right Join 
+-- This will return all data from right table and only matching data from left table
+select * 
+from students 
+right join cities on students.city_id= cities.cid;
