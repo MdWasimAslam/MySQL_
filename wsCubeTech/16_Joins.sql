@@ -1,3 +1,8 @@
+--A JOIN clause is used to combine rows from two or more tables, based on a related column between them.
+
+
+
+
 -- Inner Join 
 -- This will return all the matching fields in both the table 
 select * 
