@@ -8,7 +8,7 @@ DDL - Data Defination Language  -> Commands used for Defining Relational/Databas
 
 
 DRL - Data Retrieval Language  -> Commands used to retrieve data from the table
-    1. SELECT
+    1. SELECT   
 
 
 DML - Data Modification Language -> Commands used to modify Database
