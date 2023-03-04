@@ -29,3 +29,10 @@ FOREIGN KEY(CUSTOMER_ID) REFERENCES CUSTOMERS(CUSTOMER_ID)
 ALTER TABLE transactions
 DROP FOREIGN KEY transactions_ibfk_1;  -- this unique foreign key name could be found under table column foreign key
 
+-- ADD CUSTOM NAMED FOREIGN KEY
+ALTER TABLE transactions
+ADD CONSTRAINT fk_customer_id
+FOREIGN KEY (CUSTOMER_ID) REFERENCES CUSTOMERS(CUSTOMER_ID);
+
+
+-- WE CANNOT DELETE VALUE FROM A FOREIGN KEY 
