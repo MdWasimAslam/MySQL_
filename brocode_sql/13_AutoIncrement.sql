@@ -12,3 +12,8 @@ VALUES
 (8.5),
 (4.54),
 (2.87);
+
+
+-- ADDING CUSTOM START Point for AutoIncrement To Start From, So here Id will start from 1000
+ALTER TABLE transactions
+AUTO_INCREMENT = 1000; 
